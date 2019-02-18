@@ -1,3 +1,5 @@
+/*********************************************LYD SCROLL DOWN *****************************************/ 
+
 /**
  * fil: audio.js
  * purpose: play audio when the containing div is visible
@@ -38,3 +40,4 @@ function elFllVsbl(el) {
 NB: the audio / video tags will allways return true,
 solution: place the tag in a div and test for the div in stead
 */
+/***********************LYD SCROLL DOWN ******************************************************************/ 
