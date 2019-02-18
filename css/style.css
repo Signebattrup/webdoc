@@ -1,43 +1,31 @@
 /*CSS document*/
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-/*HEADER*/
-body {
-  background-image: url(../images/ocean.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+/********* HEADER ********/
 
-#ariel {
-  width: 20%;
-  position: absolute;
-  animation-name: ariel;
-  animation-name: flyv;
-  animation-duration: 15s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-  animation-delay: 2s;
+
+
+/********* BODY **********/
+
+img {
+    width: 100%;
 }
 
 
-@keyframes tekst {
 
- from {
-
- }
+/****************************/
 
 
-}
 
 
-#hi{
-  animation-name: tekst;
-  position: absolute;
-
+#annehjemme {
+    width: 50%;
+    height: auto;
+    padding: 3%;
 
 }
 
@@ -45,36 +33,15 @@ body {
 
 
 
-/*her defineres vores animation*/
-@keyframes ariel {
-  from {
-    left: 0px;
+/*Pallax - taget fra w3school*/
+/* The image used */
+/*
+    background-image: url('Annehjemme.jpg');
+    Full height 
+    height: 100%;*/
 
-  }
-
-  to {
-    left: 1000px;
-  }
-}
-
-@keyframes flyv {
-  0%   {top: 10px;
-  left: 99px;}
-  25% {
-top: 100px;
-left: 1200px;
-
-
-  }
-  50%  {
-top: 333px;
-left: 90px;
-
-  }
-  100% {
-top: 99px;
-left: 19px;
-
-  }
-
-}
+/* Create the parallax scrolling effect 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  */
