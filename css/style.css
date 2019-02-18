@@ -1,8 +1,8 @@
 /*CSS document*/
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 /********* HEADER ********/
@@ -12,8 +12,36 @@
 /********* BODY **********/
 
 img {
-    width: 100%; 
+    width: 100%;
 }
 
 
 
+/****************************/
+
+
+
+
+#annehjemme {
+    width: 50%;
+    height: auto;
+    padding: 3%;
+
+}
+
+
+
+
+
+/*Pallax - taget fra w3school*/
+/* The image used */
+/*
+    background-image: url('Annehjemme.jpg');
+    Full height 
+    height: 100%;*/
+
+/* Create the parallax scrolling effect 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  */
