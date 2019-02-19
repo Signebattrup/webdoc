@@ -209,7 +209,7 @@ p {
     background-image: url("../images/lyd-baggrund.png");
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 5%;
+    padding: 15%;
     flex-direction: row;
 }
 
