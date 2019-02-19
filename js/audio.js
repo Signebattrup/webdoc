@@ -21,17 +21,6 @@ window.addEventListener("scroll", function() { // detect scroll event
   }
 })
 
-// Below: start and stop audio 
-  if (elFllVsbl(lyd2)) { // if the #lyd div is visible then
-    if (!(mySound2.curentTime > 0)) {
-      mySound2.play(); // play audio
-    }
-  } else {
-    mySound2.pause();
-    mySound2.currentTime = 0; // rewind the sound
-  }
-})
-
 // this function will check whether a tag is visible
 function elFllVsbl(el) {
   return (el.getBoundingClientRect().top >= 0 && el.getBoundingClientRect().bottom < window.innerHeight);
@@ -52,3 +41,30 @@ function myFunction() {
   var x = document.getElementById("myVideo").loop;
   document.getElementById("demo").innerHTML = x;
 }
+
+/****hvem er anne****/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
