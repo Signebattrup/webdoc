@@ -12,7 +12,7 @@
     <meta name="description" content="Here you add the description of your content">
     <!-- this is for search engne optimization - fill in description of the page content. This will usually be the text shown under the heading in a search. Can contain up to 155 characters-->
     <link rel="stylesheet" href="css/style.css">
-<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
 
 
 </head>
@@ -20,30 +20,108 @@
 <body>
     <articel>
 
-        <h1>Anne Ingrid</h1>
+        <video class="bagud" width="100%" height="auto" autoplay>
+            <source src="video/toploop.mp4" type="video/mp4">
 
+            <h1 class="foran">Anne Ingrid</h1>
+        </video>
 
-
-        <div>
-            <h2>Hvem er Anne?</h2>
-            <h2>Kvinden bag vokalen</h2>
+        <section id="hvemeranne">
+            <div id="teksthvemer">
+                <h2>Kvinden bag vokalen</h2>
+                <p>Anne Ingrid Tangen Kjær, 24 år, fra Norge og er i gang med sin Masters of Music hos det Jyske Musik konservatorium i Aarhus, med speciale inden for komponering og vokal.
+                    Udover det er hun i gang med to projekter.Det ene er et band med genren ’’ som går under navnet Kiær og det andet er en duet, med genren ’’.
+                </p> <br>
+                <p>
+                    Noget af det første som inspirerede Anne
+                    var Jamie Cullum, som har et mix af Jazz
+                    og pop, hvilket er noget hun stræber efter at lave. Hendes interesse for musik har altid været der. Hun begyndte at spille klaver ved 9 års alderen, derefter at synge i kor og så begyndte hun at skrive sange.</p>
+            </div>
             <img id="annehjemme" src="images/Annehjemme.jpg" alt="Anne Ingrid">
-            <p>Anne Ingrid Tangen Kjær, 24 år, fra Norge og er i gang med sin Masters of Music hos det Jyske Musik konservatorium i Aarhus, med speciale inden for komponering og vokal.
-                Udover det er hun i gang med to projekter.Det ene er et band med genren ’’ som går under navnet Kiær og det andet er en duet, med genren ’’.
-            </p>
-            <p>
-                Noget af det første som inspirerede Anne
-                var Jamie Cullum, som har et mix af Jazz
-                og pop, hvilket er noget hun stræber efter at lave. Hendes interesse for musik har altid været der. Hun begyndte at spille klaver ved 9 års alderen, derefter at synge i kor og så begyndte hun at skrive sange.</p>
-        </div>
+    
+        
+        </section>
+        <div id="annepaabaenk"> <h1>Inspiration</h1></div>
+        <section id="naturinspirerer">
+        
+           
+                   
+            <div id="naturinspirerertekst">
+                <h3>"Naturen inspirerer mig"</h3>
+                
+                 <div id="test"></div>
 
-        <img src="images/Annekasterblade.jpg" alt="">
-        <img src="images/Anneklaver.jpg" alt="">
-        <img src="images/Annenyderhimlen.jpg" alt="">" alt="">
-        <img src="images/Annepaabaenk.jpg" alt="">
-        <img src="images/Anneskriver.jpg" alt="">
-        <img src="images/annesmil.jpg" alt="">
+                <video width="50%" height="auto" autoplay>
+                    <source src="video/annesinspiration.mp4" type="video/mp4">
+                </video>
+                
+                <p>Den første kunstner som Anne husker inspirerede hende var Jamie Cullum. Hun blev fanget af det mix af jazz og pop som han laver, og stræber selv efter det den dag i dag. I dag er der mange andre bands og kunstnere som inspirer hende, især den Norske Emilie Nicolas.
+                Anne bliver inspireret af hendes omgivelser, andre mennesker og naturen. Tit når hun er ude og gå en tur, kommer teksterne til hende, og så begynder hun at skrive dem ned på sin telefon. Senere bliver der bygget videre på dem sammen med hendes klaver.
+                </p>
+            </div>
+        </section>
+
+
+        
+        
+        
+        
+
+        <div id="annesmil"> <h1>Største oplevelse</h1></div>
+        <section id="oplevelse">
+            <img src="images/sidder-paa-scene.jpg" alt="">
+
+            <p>Den største oplevelse Anne har haft på scenen,
+                var for nogle år siden, hvor hun var ved at spille koncert
+                med et band til en lille festival. <br> <br>
+                Der var mange venner blandt publikum, og stemningen
+                var god. Pludseligt gik strømmen under koncerten. <br>
+                Det endte med at de satte sig ned på scenekanten
+                og spillede resten af koncerten akustisk. <br>
+                Flere af publikum sang med på sangteksterne.
+                På et tidspunkt stoppede Anne med at synge,
+                mens publikum bare fortsatte. <br><br>
+                Det var et stort øjeblik for Anne, og det var første gang
+                hun har oplevet at publikum har taget så stor del
+                i hendes musik.
+            </p>
+
+
+        </section>
+
+        <div id="anneklaver">
+        <h1>Lydprøver</h1> </div>
+
+        <section id="lyd">
+            <div>
+                <h3>Poesi</h3>
+                <img src="images/Anneskriver.jpg" alt="">
+            </div>
+            <div>
+                <h3>Sidemannen</h3>
+                <img src="images/Annenyderhimlen.jpg" alt="">
+            </div>
+        </section>
+
     </articel>
+
+    <div id="contact">
+        <form action="action_page.php">
+
+            <label for="fname">Navn</label>
+            <input type="text" id="name" name="name" placeholder="Dit navn...">
+            <label for="mail">email</label>
+            <input type="text" id="mail" name="mail" placeholder="Din email...">
+            <label for="subject">Besked</label>
+            <textarea id="subject" name="besked" placeholder="Skriv besked..." style="height:200px"></textarea>
+            <input type="send" value="Send">
+        </form>
+    </div>
+    
+    
+    <footer>
+        <img src="images/footer.jpg" alt="">
+    </footer>
 </body>
 
 </html>
