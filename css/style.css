@@ -118,7 +118,7 @@ p {
 
 
 #naturinspirerer {
-    background-image: url(/images/natur-baggrund.jpg);
+    background-image: url(image/natur-baggrund.jpg);
     background-size: auto;
     background-repeat: no-repeat;
     display: flex;
@@ -147,7 +147,7 @@ p {
 
 
 
-/*********** Største oplevelse *******************************/
+/*********** Største oplevelse *****************************/
 
 #annesmil {
     background-image: url('/images/annesmil.jpg');
@@ -204,27 +204,27 @@ p {
 
 #lyd {
     width: 100%;
-    display: grid;
+    display: flex;
     background-color: #E2D6D3;
     background-image: url('/images/lyd-baggrund.png');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 800px;
     padding: 5%;
+    flex-direction: row;
 }
 
-#lyd img {
-    width: 45%;
-    height: auto;
-    margin: auto 0;
-}
+
 
 #poesi {
+    display: flex;
     padding: 2%;
+    flex-direction: column;
 }
 
 #sidemannen {
-    padding: 2% 2% 2% 30%;
+    display: flex;
+    padding: 2%;
+    flex-direction: column;
 }
 
 /**************** Kontakt ********************************/
@@ -234,3 +234,11 @@ p {
     margin: auto 0;
     background-color: #E2D6D3;
 }
+
+footer {
+    background-image: url("../images/footer.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+}
+

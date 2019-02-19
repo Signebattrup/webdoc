@@ -103,26 +103,19 @@
             <h1>Lydprøver</h1>
         </div>
 
-       
-       
-       
-       
-       
-       <div id="hoverElement" style="width:50%;">
-                    <img width="100%;" src="images/Anneskriver.jpg" alt="">
-                </div>
 
-                <audio id=audio style="visibility:hidden;">
-                    <source src="sound/05%20Poesi%20NO8KQ1801040%20master%2044k-24b%20v1_1.wav" type='audio/mpeg; codecs="mp3"'>
-                    <source src="sound/05%20Poesi%20NO8KQ1801040%20master%2044k-24b%20v1_1.wav" type='audio/ogg; codecs="vorbis"'>
-                    <!--In case mp3 is not supported-->
-                </audio>
-       
-       
+
+
+
         <section id="lyd">
             <div id="poesi">
-                
-                <h3>Poesi</h3>
+               <img src="images/annehjemme.jpg" onClick="document.getElementById('audio_play').play(); return false;" />
+                   <h3>Poesi</h3>
+                     <audio controls id="audio_play">
+                    <source src="sound/poesi.wav" type="audio/ogg" />
+                    <source src="sound/poesi.wav" type="audio/mpeg" />
+                </audio>
+           
             </div>
 
 
@@ -133,30 +126,23 @@
 
 
             <div id="sidemannen">
-                <img src="images/Annenyderhimlen.jpg" alt="">
-                <h3>Sidemannen</h3>
+                <img src="images/annenyderhimlen.jpg" onClick="document.getElementById('audio_play1').play(); return false;" />
+                   <h3>Sidemannen</h3>
+                     <audio controls id="audio_play1">
+                    <source src="sound/sidemannen.wav" type="audio/ogg" />
+                    <source src="sound/sidemannen.wav" type="audio/mpeg" />
+                </audio>
             </div>
         </section>
 
     </articel>
 
-    <div id="contact">
-        <form action="action_page.php">
-
-            <label for="fname">Navn</label>
-            <input type="text" id="name" name="name" placeholder="Dit navn...">
-            <label for="mail">email</label>
-            <input type="text" id="mail" name="mail" placeholder="Din email...">
-            <label for="subject">Besked</label>
-            <textarea id="subject" name="besked" placeholder="Skriv besked..." style="height:200px"></textarea>
-            <input type="send" value="Send">
-        </form>
-    </div>
+   
 
 
     <footer>
         <h4>Anne Ingrid</h4>
-        <img src="images/footer.jpg" alt="">
+        
     </footer>
 </body>
 
