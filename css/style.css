@@ -115,6 +115,10 @@ p {
     padding: 5% 0%;
 }
 
+#naturinspirerer img {
+    width: 45%;
+    height: auto;
+}
 #naturinspirerertekst {
     padding: 4%;
 }
@@ -136,7 +140,6 @@ p {
     background-image: url('/images/oplevelse-baggrund.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-   
     width: 100%;
     display: flex;
 }
@@ -186,4 +189,3 @@ p {
     margin: auto 0;
     background-color: #E2D6D3;
 }
-/*********************************************************/
