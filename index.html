@@ -20,12 +20,12 @@
 <body>
     <articel>
 
-        <video controls autoplay loop id="myVideo">
+        <video id="myVideo" controls loop>
             <source src="video/toploop.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
 
-<img src="images/anneingrid-txt.png" alt="">
+        <img id="navn" src="images/anneingrid-txt.png" alt="">
 
 
         <section id="hvemeranne">
@@ -44,10 +44,10 @@
             <video id="annehjemme" controls src="video/HvemerAnne.mp4"></video>
         </section>
 
-
-
-        <div id="annepaabaenk" class="image">
-            <h1>Inspiration</h1>
+        <div id="annepaabaenk">
+            <a href="#her">
+                <h1>Inspiration</h1>
+            </a>
         </div>
 
 
@@ -59,7 +59,7 @@
                 <h2>"Naturen inspirerer mig"</h2>
 
 
-                <video id="" controls src="video/Annesinspiration.mp4"></video>
+                <video id="her" controls src="video/Annesinspiration.mp4"></video>
 
                 <p>Den første kunstner som Anne husker inspirerede hende var Jamie Cullum. Hun blev fanget af det mix af jazz og pop som han laver, og stræber selv efter det den dag i dag. I dag er der mange andre bands og kunstnere som inspirer hende, især den Norske Emilie Nicolas. <br>
                     Anne bliver inspireret af hendes omgivelser, andre mennesker og naturen. Tit når hun er ude og gå en tur, kommer teksterne til hende, og så begynder hun at skrive dem ned på sin telefon. Senere bliver der bygget videre på dem sammen med hendes klaver.
@@ -109,13 +109,13 @@
 
         <section id="lyd">
             <div id="poesi">
-               <img src="images/annehjemme.jpg" onClick="document.getElementById('audio_play').play(); return false;" />
-                   <h3>Poesi</h3>
-                     <audio controls id="audio_play">
+                <img src="images/annehjemme.jpg" onClick="document.getElementById('audio_play').play(); return false;" />
+                <h3>Poesi</h3>
+                <audio controls id="audio_play">
                     <source src="sound/poesi.wav" type="audio/ogg" />
                     <source src="sound/poesi.wav" type="audio/mpeg" />
                 </audio>
-           
+
             </div>
 
 
@@ -127,8 +127,8 @@
 
             <div id="sidemannen">
                 <img src="images/annenyderhimlen.jpg" onClick="document.getElementById('audio_play1').play(); return false;" />
-                   <h3>Sidemannen</h3>
-                     <audio controls id="audio_play1">
+                <h3>Sidemannen</h3>
+                <audio controls id="audio_play1">
                     <source src="sound/sidemannen.wav" type="audio/ogg" />
                     <source src="sound/sidemannen.wav" type="audio/mpeg" />
                 </audio>
@@ -137,13 +137,13 @@
 
     </articel>
 
-   
+
 
 
     <footer>
         <h4></h4>
-       <p>Copyright 2019 © Anne Ingrid Tangen Kiær</p>
-        
+        <p>Copyright 2019 © Anne Ingrid Tangen Kiær</p>
+
     </footer>
 </body>
 

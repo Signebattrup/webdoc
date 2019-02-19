@@ -26,11 +26,12 @@ tekst: #d0bcb7;
 h1 {
     font-size: 36px;
     color: whitesmoke;
-    background-color: rgba(226 214 211);
+    background-color: rgba(226, 214, 211, 0.8);
     padding: 1%;
     position: absolute;
     transform: translate(-50%, -50%);
     border-radius: 10px;
+   
 }
 
 h2 {
@@ -64,9 +65,14 @@ img {
 
 video {
     width: 100%;
-    margin: auto 0;
+    margin: 0 auto;
 }
 
+#navn {
+    width: 70%;
+    position: absolute;
+    transform: translate(-10%, -80%);
+}
 /*********************** Hvem er Anne? *********************/
 
 
