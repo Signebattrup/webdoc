@@ -132,6 +132,7 @@ p {
 
 #annesmil {
     background-image: url('/images/annesmil.jpg');
+    
     height: 800px;
     background-attachment: fixed;
     background-position: center;
