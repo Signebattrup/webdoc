@@ -20,12 +20,13 @@ tekst: #d0bcb7;
     margin: 0 0;
     padding: 0;
     font-family: 'Ubuntu', sans-serif;
+    color: #452d2c;
 }
 
 h1 {
     font-size: 36px;
     color: whitesmoke;
-    background-color:rgba(226 214 211);
+    background-color: rgba(226 214 211);
     padding: 1%;
     position: absolute;
     transform: translate(-50%, -50%);
@@ -123,7 +124,7 @@ p {
     background-repeat: no-repeat;
     display: flex;
     height: 118vh;
-   
+
 }
 
 #natur {
@@ -139,7 +140,7 @@ p {
 }
 
 #natur p {
-     padding: 5% 5% 8% 18%;
+    padding: 5% 5% 8% 18%;
 }
 
 
@@ -209,7 +210,7 @@ p {
     background-image: url("../images/lyd-baggrund.png");
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 15%;
+    padding: 10%;
     flex-direction: row;
 }
 
@@ -245,6 +246,5 @@ footer {
 footer p {
     padding: 6% 5%;
     color: whitesmoke;
-    
-}
 
+}
