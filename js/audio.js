@@ -52,7 +52,14 @@ function myFunction() {
 
 
 
-
+var hoverArea = document.getElementById('hoverElement');
+	var audio = document.getElementById('audio');
+	hoverArea.onmouseover= function(){
+		audio.play();
+	}
+	hoverArea.onmouseout= function(){
+		audio.pause();
+	}
 
 
 
