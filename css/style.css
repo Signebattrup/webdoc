@@ -82,6 +82,7 @@ p {
     height: auto;
     margin: auto 0;
 }
+
 /***********************************************************/
 
 #annepaabaenk {
@@ -95,22 +96,21 @@ p {
 
 
 #naturinspirerer {
-  /*  background-color: #e2d6d3;*/
+    background-image: url(/images/natur-baggrund.jpg);
+    background-size: cover;
     padding: 5% 0%;
-   display: flex;
+    display: flex;
+    height: 140vh;
+}
 
+#natur {
+width: 90%;
 }
 
 
 
 
 
-/*#naturinspirerer img {
-    width: 45%;
-    height: 45%;
-    z-index: -1;
-    position: relative;
-}*/
 /*********************************************************/
 
 #annesmil {
@@ -143,6 +143,7 @@ p {
     margin: auto 0;
     padding: 15% 1% 10% 10%;
 }
+
 /*********************************************************/
 
 #anneklaver {
@@ -170,6 +171,7 @@ p {
     height: auto;
     margin: auto 0;
 }
+
 /*********************************************************/
 #contact {
     width: 100%;
