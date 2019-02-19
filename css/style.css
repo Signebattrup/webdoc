@@ -52,17 +52,6 @@ img {
     width: 100%;
 }
 
-.foran {
-    position: fixed;
-    /* Sit on top of the page content */
-    z-index: 2;
-    /* Specify a stack order in case you're using a different order for other elements */
-}
-
-.bagud {
-    z-index: -1;
-}
-
 /*********************************************************/
 
 
@@ -106,23 +95,22 @@ p {
 
 
 #naturinspirerer {
-    display: grid;
-    background-color: #e2d6d3;
-    background-image: url('/images/naturen-txt.png');
-    background-repeat: no-repeat;
-    background-position: right;
-    display: flex;
+  /*  background-color: #e2d6d3;*/
     padding: 5% 0%;
+   display: flex;
+
 }
 
-#naturinspirerer img {
+
+
+
+
+/*#naturinspirerer img {
     width: 45%;
-    height: auto;
-}
-#naturinspirerertekst {
-    padding: 4%;
-}
-
+    height: 45%;
+    z-index: -1;
+    position: relative;
+}*/
 /*********************************************************/
 
 #annesmil {
