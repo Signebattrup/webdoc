@@ -24,7 +24,11 @@ tekst: #d0bcb7;
 
 h1 {
     font-size: 36px;
-    position: fixed;
+    color: whitesmoke;
+    background-color:rgba(226 214 211);
+    padding: 2%;
+    position: absolute;
+    transform: translate(-50%, -50%);
 }
 
 h2 {
@@ -39,8 +43,6 @@ p {
     font-size: 14px;
     line-height: 18px;
 }
-
-
 
 
 
@@ -60,6 +62,7 @@ img {
 
 video {
     width: 100%;
+    margin: auto 0;
 }
 
 /*********************** Hvem er Anne? *********************/
@@ -74,6 +77,7 @@ video {
     width: 100%;
     display: flex;
     padding: 10%;
+    height: 100vh;
 }
 
 #annehjemme {
@@ -96,20 +100,27 @@ p {
 
 #annepaabaenk {
     background-image: url('/images/annepaabaenk.jpg');
-    height: 800px;
+    height: 100vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
 }
+
+#annepaabaenk h1 {
+    top: 245%;
+    left: 50%;
+}
+
 
 
 #naturinspirerer {
     background-image: url(/images/natur-baggrund.jpg);
     background-size: cover;
-
     display: flex;
-    height: 150vh;
+    height: auto;
+    height: 160vh;
 }
 
 #natur {
@@ -132,12 +143,16 @@ p {
 
 #annesmil {
     background-image: url('/images/annesmil.jpg');
-    
     height: 800px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+#annesmil h1 {
+    top: 500%;
+    left: 50%;
 }
 
 
@@ -172,6 +187,11 @@ p {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+#anneklaver h1 {
+    top: 685%;
+    left: 50%;
 }
 
 #lyd {
