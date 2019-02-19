@@ -24,6 +24,7 @@ tekst: #d0bcb7;
 
 h1 {
     font-size: 36px;
+    position: fixed;
 }
 
 h2 {
@@ -36,6 +37,7 @@ h3 {
 
 p {
     font-size: 14px;
+    line-height: 18px;
 }
 
 
@@ -52,31 +54,35 @@ img {
     width: 100%;
 }
 
-/*********************************************************/
 
-/**************loop**************************/
+
+/************** Loop **************************/
+
 video {
-  width: 100%;
+    width: 100%;
 }
 
-/*hvem er anne*/
+/*********************** Hvem er Anne? *********************/
+
 
 
 
 #hvemeranne {
-    width: 100%;
-    height: 700px;
-    background-color: #d3c1c0;
-    background-image: url('/images/hvemeranne-txt.png');
+    background-image: url('/images/hvemeranne-baggrund.png');
     background-repeat: no-repeat;
-    background-position: left;
-    padding: 10%;
+    background-position: cover;
+    width: 100%;
     display: flex;
+    padding: 10%;
+}
+
+#annehjemme {
+    width: 55%;
+    margin: auto 0;
 }
 
 #teksthvemer {
     width: 40%;
-    z-index: 2;
 }
 
 #teksthvemer h2,
@@ -84,13 +90,9 @@ p {
     padding: 0% 8% 4% 0%;
 }
 
-#annehjemme {
-    width: 60%;
-    height: auto;
-    margin: auto 0;
-}
 
-/***********************************************************/
+
+/************* Inspiration **********************************/
 
 #annepaabaenk {
     background-image: url('/images/annepaabaenk.jpg');
@@ -105,14 +107,20 @@ p {
 #naturinspirerer {
     background-image: url(/images/natur-baggrund.jpg);
     background-size: cover;
-    padding: 5% 0%;
+
     display: flex;
-    height: 140vh;
+    height: 150vh;
 }
 
 #natur {
-width: 90%;
-    padding-left: 30%;
+    width: 90%;
+    padding: 10% 0 0 40%;
+}
+
+#natur h2,
+#natur p {
+    padding: 8% 5% 8% 33%;
+
 }
 
 
@@ -120,7 +128,7 @@ width: 90%;
 
 
 
-/*********************************************************/
+/*********** Største oplevelse *******************************/
 
 #annesmil {
     background-image: url('/images/annesmil.jpg');
@@ -144,16 +152,17 @@ width: 90%;
 #oplevelse p {
     padding: 15% 10% 10% 1%;
     width: 40%;
-    height: 40%
+    height: 40%;
+    margin: auto 0;
 }
 
 #oplevelse img {
     width: 45%;
-    margin: auto 0;
     padding: 15% 1% 10% 10%;
+    margin: auto 0;
 }
 
-/*********************************************************/
+/***************** Lydprøve ******************************/
 
 #anneklaver {
     background-image: url('/images/anneklaver.jpg');
@@ -181,7 +190,7 @@ width: 90%;
     margin: auto 0;
 }
 
-/*********************************************************/
+/**************** Kontakt ********************************/
 #contact {
     width: 100%;
     height: 800px;
