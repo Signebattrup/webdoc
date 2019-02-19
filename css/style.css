@@ -1,7 +1,23 @@
 /*CSS document*/
+
+/* Farvekoder 
+1. baggrundsfarve:  #E2D6D3
+tekst der til: #d3c1c0
+
+2. baggrund: #e2d6d3;
+tekst til: #cfc6b9;
+
+3. baggrund: #c7afa8;
+tekst: #d0bcb7;
+*/
+
+
+
+
+
 * {
     box-sizing: border-box;
-    margin: 0;
+    margin: 0 0;
     padding: 0;
     font-family: 'Ubuntu', sans-serif;
 }
@@ -22,16 +38,7 @@ p {
     font-size: 14px;
 }
 
-/* Farvekoder 
-1. baggrundsfarve:  #E2D6D3
-tekst der til: #d3c1c0
 
-2. baggrund: #e2d6d3;
-tekst til: #cfc6b9;
-
-3. baggrund: #c7afa8;
-tekst: #d0bcb7;
-*/
 
 
 
@@ -56,7 +63,7 @@ img {
     z-index: -1;
 }
 
-/****************************/
+/*********************************************************/
 
 
 
@@ -70,8 +77,6 @@ img {
     padding: 10%;
     display: flex;
 }
-
-
 
 #teksthvemer {
     width: 40%;
@@ -88,11 +93,11 @@ p {
     height: auto;
     margin: auto 0;
 }
-
+/***********************************************************/
 
 #annepaabaenk {
     background-image: url('/images/annepaabaenk.jpg');
-    height: 1800px;
+    height: 800px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -114,11 +119,11 @@ p {
     padding: 4%;
 }
 
-
+/*********************************************************/
 
 #annesmil {
     background-image: url('/images/annesmil.jpg');
-    height: 1800px;
+    height: 800px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -131,14 +136,12 @@ p {
     background-image: url('/images/oplevelse-baggrund.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 2000px;
+   
     width: 100%;
     display: flex;
 }
 
 #oplevelse p {
-
-
     padding: 15% 10% 10% 1%;
     width: 40%;
     height: 40%
@@ -149,11 +152,11 @@ p {
     margin: auto 0;
     padding: 15% 1% 10% 10%;
 }
-
+/*********************************************************/
 
 #anneklaver {
     background-image: url('/images/anneklaver.jpg');
-    height: 1800px;
+    height: 800px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -167,7 +170,7 @@ p {
     background-image: url('/images/lyd-baggrund.png');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 2000px;
+    height: 800px;
     padding: 5%;
 }
 
@@ -176,10 +179,11 @@ p {
     height: auto;
     margin: auto 0;
 }
-
+/*********************************************************/
 #contact {
     width: 100%;
-    height: 1800px;
+    height: 800px;
     margin: auto 0;
     background-color: #E2D6D3;
 }
+/*********************************************************/
