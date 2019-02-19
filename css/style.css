@@ -72,7 +72,7 @@ video {
 
 
 #hvemeranne {
-    background-image: url('/images/hvemeranne-baggrund.png');
+    background-image: url("../images/hvemeranne-baggrund.png");
     background-repeat: no-repeat;
     background-position: cover;
     width: 100%;
@@ -101,7 +101,7 @@ p {
 /************* Inspiration **********************************/
 
 #annepaabaenk {
-    background-image: url('/images/annepaabaenk.jpg');
+    background-image: url("../images/annepaabaenk.jpg");
     height: 100vh;
     background-attachment: fixed;
     background-position: center;
@@ -118,7 +118,7 @@ p {
 
 
 #naturinspirerer {
-    background-image: url(image/natur-baggrund.jpg);
+    background-image: url("../image/natur-baggrund.jpg");
     background-size: auto;
     background-repeat: no-repeat;
     display: flex;
@@ -150,7 +150,7 @@ p {
 /*********** Største oplevelse *****************************/
 
 #annesmil {
-    background-image: url('/images/annesmil.jpg');
+    background-image: url("../images/annesmil.jpg");
     height: 800px;
     background-attachment: fixed;
     background-position: center;
@@ -166,7 +166,7 @@ p {
 
 
 #oplevelse {
-    background-image: url('/images/oplevelse-baggrund.jpg');
+    background-image: url("../images/oplevelse-baggrund.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -189,7 +189,7 @@ p {
 /***************** Lydprøve ******************************/
 
 #anneklaver {
-    background-image: url('/images/anneklaver.jpg');
+    background-image: url("../images/anneklaver.jpg");
     height: 800px;
     background-attachment: fixed;
     background-position: center;
@@ -206,7 +206,7 @@ p {
     width: 100%;
     display: flex;
     background-color: #E2D6D3;
-    background-image: url('/images/lyd-baggrund.png');
+    background-image: url("../images/lyd-baggrund.png");
     background-repeat: no-repeat;
     background-size: cover;
     padding: 5%;
