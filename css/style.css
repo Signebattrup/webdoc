@@ -109,13 +109,20 @@ p {
 
 #annepaabaenk {
     background-image: url("../images/annepaabaenk.jpg");
-    height: 100vh;
+    height: 800px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 
 }
+
+
+
+
+
+
+
 
 #annepaabaenk h1 {
     top: 220%;
