@@ -60,13 +60,25 @@ var hoverArea = document.getElementById('hoverElement');
 	hoverArea.onmouseout= function(){
 		audio.pause();
 	}
+/****************************/
+    
+    
+
+
+    
+    var hoverArea = document.getElementById('hoverElement');
+	var audio = document.getElementById('audio');
+	hoverArea.onmouseover= function(){
+		audio.play();
+	}
+	hoverArea.onmouseout= function(){
+		audio.pause();
+	}
 
 
 
-
-
-
-
+    
+    
 
 
 
