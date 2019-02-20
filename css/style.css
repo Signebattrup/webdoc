@@ -83,7 +83,6 @@ video {
     background-image: url("../images/hvemeranne-baggrund.png");
     background-repeat: no-repeat;
     background-position: cover;
-    width: 100%;
     display: flex;
     padding: 10%;
     height: 75vh;
