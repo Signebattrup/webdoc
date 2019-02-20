@@ -82,10 +82,9 @@ video {
 #hvemeranne {
     background-image: url("../images/hvemeranne-baggrund.png");
     background-repeat: no-repeat;
-    background-position: cover;
     display: flex;
-    padding: 10%;
-    height: 75vh;
+    padding: 12% 5% 10% 5%;
+    height: 80vh;
 }
 
 #annehjemme {
@@ -95,7 +94,6 @@ video {
 
 #teksthvemer {
     width: 40%;
-    padding-top: 3%;
 }
 
 #teksthvemer h2,
@@ -171,9 +169,7 @@ p {
 }
 
 #lyd1{
-    height: 700%;
-    
-    
+    height: 700%;   
 }
 
 
@@ -186,18 +182,25 @@ p {
     display: flex;
 }
 
-#oplevelse p {
-    padding: 15% 10% 10% 1%;
-    width: 40%;
-    height: 40%;
+#oplevelse img {
+    width: 45%;
+    padding: 10% 3% 10% 10%;
     margin: auto 0;
 }
 
-#oplevelse img {
-    width: 45%;
-    padding: 15% 1% 10% 10%;
+#oplevelse p {
+    width: 100%;
+    height: 40%;
+}
+
+#tekstoplevelse {
+    display: flex;
+    width: 40%;
+    flex-direction: column;
     margin: auto 0;
 }
+
+
 
 /***************** Lydprøve ******************************/
 
