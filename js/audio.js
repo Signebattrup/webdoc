@@ -46,11 +46,7 @@ function myFunction() {
   document.getElementById("demo").innerHTML = x;
 }
 
-/****hvem er anne****/
-
-
-
-
+/****lydprøver****/
 
 
 
