@@ -114,13 +114,7 @@ p {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
 }
-
-
-
-
-
 
 
 
@@ -129,27 +123,22 @@ p {
     left: 50%;
 }
 
-
-
 #naturinspirerer {
     background-image: url("../images/natur-baggrund.jpg");
     background-size: auto;
     background-repeat: no-repeat;
     display: flex;
     height: 118vh;
-
 }
 
 #natur {
     width: 100%;
     height: auto;
     padding: 5% 5% 5% 40%;
-
 }
 
 #natur h2 {
     padding: 20% 5% 5% 18%;
-
 }
 
 #natur p {
