@@ -67,6 +67,7 @@ img {
 video {
     width: 100%;
     margin: 0 auto;
+    
 }
 
 #navn {
@@ -82,11 +83,10 @@ video {
 #hvemeranne {
     background-image: url("../images/hvemeranne-baggrund.png");
     background-repeat: no-repeat;
-    background-position: cover;
-    width: 100%;
     display: flex;
-    padding: 10%;
-    height: 75vh;
+    padding: 12% 5% 10% 5%;
+    height: 80vh;
+  
 }
 
 #annehjemme {
@@ -96,7 +96,6 @@ video {
 
 #teksthvemer {
     width: 40%;
-    padding-top: 3%;
 }
 
 #teksthvemer h2,
@@ -110,20 +109,19 @@ p {
 
 #annepaabaenk {
     background-image: url("../images/annepaabaenk.jpg");
-    height: 100vh;
+    height: 800px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
 }
+
+
 
 #annepaabaenk h1 {
     top: 220%;
     left: 50%;
 }
-
-
 
 #naturinspirerer {
     background-image: url("../images/natur-baggrund.jpg");
@@ -131,19 +129,16 @@ p {
     background-repeat: no-repeat;
     display: flex;
     height: 118vh;
-
 }
 
 #natur {
     width: 100%;
     height: auto;
     padding: 5% 5% 5% 40%;
-
 }
 
 #natur h2 {
     padding: 20% 5% 5% 18%;
-
 }
 
 #natur p {
@@ -172,9 +167,7 @@ p {
 }
 
 #lyd1{
-    height: 700%;
-    
-    
+    height: 700%;   
 }
 
 
@@ -187,18 +180,25 @@ p {
     display: flex;
 }
 
-#oplevelse p {
-    padding: 15% 10% 10% 1%;
-    width: 40%;
-    height: 40%;
+#oplevelse img {
+    width: 45%;
+    padding: 10% 3% 10% 10%;
     margin: auto 0;
 }
 
-#oplevelse img {
-    width: 45%;
-    padding: 15% 1% 10% 10%;
+#oplevelse p {
+    width: 100%;
+    height: 40%;
+}
+
+#tekstoplevelse {
+    display: flex;
+    width: 40%;
+    flex-direction: column;
     margin: auto 0;
 }
+
+
 
 /***************** Lydprøve ******************************/
 
@@ -241,14 +241,6 @@ p {
     flex-direction: column;
 }
 
-/**************** Kontakt ********************************/
-#contact {
-    width: 100%;
-    height: 800px;
-    margin: auto 0;
-    background-color: #E2D6D3;
-}
-
 footer {
     background-image: url("../images/footer.jpg");
     background-repeat: no-repeat;
@@ -259,5 +251,4 @@ footer {
 footer p {
     padding: 6% 5%;
     color: whitesmoke;
-
 }
